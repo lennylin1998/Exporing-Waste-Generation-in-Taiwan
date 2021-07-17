@@ -2,8 +2,8 @@
 ## Overview and objective
 This is an exploratory analysis on waste generation in Taiwan. In this project, I aim to find out wich county in Taiwan has done well on waste control, and on increasing recycling rate. The tool will be python. Pandas and plotly are two main libraries used. Here I include data source, glossary, outline and some graph. Make sure to check them out before jumping into the project! Thank you for reading, and comments are always welcome! 
 ## Source and reference
-* Datasets: [Environmental Protection Administration Executive Yuan, ROC Taiwan] (https://stat.epa.gov.tw/)
-* References: [Plotly Documentation] (https://plotly.com/python/)
+* Datasets: [Environmental Protection Administration Executive Yuan, ROC Taiwan](https://stat.epa.gov.tw/)
+* References: [Plotly Documentation](https://plotly.com/python/)
 ## Glossary
 |Column Name|Explanation|
 |---|---|
