@@ -1,0 +1,489 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" >
+<html lang="中文">
+<head>
+<link rel="shortcut icon" href="gotac.ico" >
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta name="description" content="統計資料查詢功能">
+<meta name="keywords" content="統計、動態查詢、金諄">
+<title>環保署查詢結果</title>
+
+<!-- 系統開發:金諄資訊股份有限公司 (02) 2759-6506 -->
+
+
+<title>一般廢棄物產生量查詢結果網頁</title>
+<style type="text/css">
+<!--
+ 
+body,td,th {
+	font-size: x-small;
+	color: #000066;
+	background-color: #e8f0fb;
+}
+
+a:active {
+	text-decoration: none;
+}
+a:link {
+	color: #000066;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #330066;
+}
+a:hover {
+	text-decoration: underline;
+}
+ 
+th,.stycode {
+	background-color: #d2e2f9;
+	font-weight: lighter;
+	color: #000066;
+	}
+.stytitle {
+	font-weight: normal;
+	color: #003333;
+	background-color: #d2e2f9;
+}
+.stydata {
+	background-color: #FFFFEC;
+	color: #0000CC;
+	background-position: center center;
+}
+.stytable {
+	background-color: #DFFDCA;
+	background-position: center center;
+}
+
+.headcls {
+	font-size: x-large;
+	color: #000066;
+	font-weight: bold;
+}
+.msgcls {
+	color: #FF0000;
+}
+.desccls {
+	color: #000099;
+}
+.syscls {
+	color: #000033;
+	font-size: x-small;
+}
+.tblcls {
+     margin-left:15px;
+}
+.btncls {
+ 
+	color: #000099;
+	background-color: #FFD393;
+	background-position: center center;
+	font-size: 12;
+}
+
+}
+-->
+</style>
+</head>
+
+
+<script language="JavaScript" src="stcom.js"></script>
+<script>
+function openWindow(ltype,lsysid, lparm,ldframe,ldposx,ldposy,ldheight,ldwidth){
+}
+</script>
+<body  onLoad="MM_preloadImages('prvbtn.gif','prvbtn_f2.gif')" tracingsrc="imageback1.gif" tracingopacity="10">
+<form   name="form1">
+
+<table summary='查詢結果網頁表格資料'  width="100%" height="55" border="0">
+  <tr align="center" valign="middle"  >
+    <td colspan=5 class="headcls">一般廢棄物產生量</td>  
+  </tr>
+
+  <tr align="center" valign="middle"  >
+    <td align=left width="30%">單位：公噸</td>      
+    <td></td>      
+    <td></td>      
+    <td></td>      
+    <td align=right width="30%">表格數：1</td>      
+  </tr>  
+
+  <tr><td height="15" colspan=9 background="imageline2.gif">&nbsp;</td>      
+  </tr>
+</table>
+
+ <table summary='統計資料庫查詢結果網頁表格資料'  border="1" cellpadding="1" cellspacing="1" class="tblcls">
+
+    <tr ><th width="80"  align="center" valign="middle" scope="col" class="stytitle">　　　　</th>
+
+ <th  width="88"  align="center" scope="col" class="stytitle">一般廢棄物產生量(公噸)</th>     <th  width="88"  align="center" scope="col" class="stytitle">一般垃圾(公噸)</th>     <th  width="88"  align="center" scope="col" class="stytitle">資源垃圾 (公噸)</th>     <th  width="88"  align="center" scope="col" class="stytitle">廚餘 (公噸)</th>     <th  width="88"  align="center" scope="col" class="stytitle">平均每人每日一般廢棄物產生量(公斤)</th>     <th  width="64"  align="center" scope="col" class="stytitle">平均每人每日廚餘回收量(公斤)</th>     <th  width="64"  align="center" scope="col" class="stytitle">一般廢棄物回收率(%)</th>       
+    </tr>
+
+
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=0a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');"> 7,461,342</a> </td>       <td class="stydata" align="right"> 3,133,582 </td>       <td class="stydata" align="right"> 3,751,828 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=0a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">   575,932</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=0a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.867</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=0a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.067</a> </td>       <td class="stydata" align="right"> 58.00 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 1月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=1a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   616,449</a> </td>       <td class="stydata" align="right"> 276,545 </td>       <td class="stydata" align="right"> 289,461 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=1a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    50,444</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=1a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.846</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=1a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.069</a> </td>       <td class="stydata" align="right"> 55.14 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 2月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=2a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   591,701</a> </td>       <td class="stydata" align="right"> 280,682 </td>       <td class="stydata" align="right"> 262,087 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=2a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    48,933</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=2a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.868</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=2a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.072</a> </td>       <td class="stydata" align="right"> 52.56 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 3月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=3a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   617,286</a> </td>       <td class="stydata" align="right"> 266,310 </td>       <td class="stydata" align="right"> 301,457 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=3a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    49,520</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=3a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.847</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=3a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.068</a> </td>       <td class="stydata" align="right"> 56.86 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 4月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=4a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   584,620</a> </td>       <td class="stydata" align="right"> 247,707 </td>       <td class="stydata" align="right"> 288,289 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=4a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    48,624</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=4a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.829</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=4a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.069</a> </td>       <td class="stydata" align="right"> 57.63 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 5月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=5a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   611,476</a> </td>       <td class="stydata" align="right"> 248,428 </td>       <td class="stydata" align="right"> 314,259 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=5a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    48,789</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=5a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.839</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=5a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.067</a> </td>       <td class="stydata" align="right"> 59.37 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 6月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=6a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   628,950</a> </td>       <td class="stydata" align="right"> 265,750 </td>       <td class="stydata" align="right"> 313,563 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=6a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    49,637</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=6a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.892</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=6a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.070</a> </td>       <td class="stydata" align="right"> 57.75 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 7月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=7a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   621,549</a> </td>       <td class="stydata" align="right"> 262,560 </td>       <td class="stydata" align="right"> 310,791 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=7a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    48,198</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=7a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.853</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=7a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.066</a> </td>       <td class="stydata" align="right"> 57.76 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 8月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=8a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   640,307</a> </td>       <td class="stydata" align="right"> 262,713 </td>       <td class="stydata" align="right"> 330,290 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=8a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    47,305</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=8a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.878</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=8a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.065</a> </td>       <td class="stydata" align="right"> 58.97 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 9月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=9a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   642,511</a> </td>       <td class="stydata" align="right"> 270,439 </td>       <td class="stydata" align="right"> 324,607 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=9a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    47,466</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=9a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.911</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=9a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.067</a> </td>       <td class="stydata" align="right"> 57.91 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 10月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=10a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   635,758</a> </td>       <td class="stydata" align="right"> 256,490 </td>       <td class="stydata" align="right"> 333,123 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=10a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    46,145</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=10a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.872</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=10a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.063</a> </td>       <td class="stydata" align="right"> 59.66 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 11月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=11a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   616,299</a> </td>       <td class="stydata" align="right"> 238,818 </td>       <td class="stydata" align="right"> 333,422 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=11a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    44,059</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=11a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.873</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=11a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.062</a> </td>       <td class="stydata" align="right"> 61.25 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">105年 12月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=12a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   654,434</a> </td>       <td class="stydata" align="right"> 257,142 </td>       <td class="stydata" align="right"> 350,479 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=12a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    46,813</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=12a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.897</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=105am=12a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.064</a> </td>       <td class="stydata" align="right"> 60.71 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=0a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');"> 7,870,896</a> </td>       <td class="stydata" align="right"> 3,130,735 </td>       <td class="stydata" align="right"> 4,188,829 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=0a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">   551,332</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=0a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.915</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=0a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.064</a> </td>       <td class="stydata" align="right"> 60.22 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 1月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=1a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   656,703</a> </td>       <td class="stydata" align="right"> 273,818 </td>       <td class="stydata" align="right"> 336,042 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=1a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    46,843</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=1a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.900</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=1a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.064</a> </td>       <td class="stydata" align="right"> 58.30 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 2月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=2a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   601,363</a> </td>       <td class="stydata" align="right"> 248,026 </td>       <td class="stydata" align="right"> 307,381 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=2a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    45,956</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=2a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.912</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=2a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.070</a> </td>       <td class="stydata" align="right"> 58.76 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 3月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=3a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   660,131</a> </td>       <td class="stydata" align="right"> 254,349 </td>       <td class="stydata" align="right"> 360,469 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=3a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    45,313</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=3a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.904</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=3a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.062</a> </td>       <td class="stydata" align="right"> 61.47 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 4月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=4a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   611,451</a> </td>       <td class="stydata" align="right"> 233,790 </td>       <td class="stydata" align="right"> 331,314 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=4a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    46,347</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=4a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.866</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=4a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.066</a> </td>       <td class="stydata" align="right"> 61.76 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 5月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=5a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   638,240</a> </td>       <td class="stydata" align="right"> 246,211 </td>       <td class="stydata" align="right"> 343,969 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=5a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    48,060</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=5a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.874</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=5a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.066</a> </td>       <td class="stydata" align="right"> 61.42 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 6月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=6a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   665,001</a> </td>       <td class="stydata" align="right"> 262,754 </td>       <td class="stydata" align="right"> 353,564 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=6a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    48,682</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=6a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.941</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=6a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.069</a> </td>       <td class="stydata" align="right"> 60.49 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 7月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=7a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   648,014</a> </td>       <td class="stydata" align="right"> 254,046 </td>       <td class="stydata" align="right"> 346,959 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=7a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    47,009</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=7a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.887</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=7a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.064</a> </td>       <td class="stydata" align="right"> 60.80 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 8月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=8a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   659,207</a> </td>       <td class="stydata" align="right"> 249,080 </td>       <td class="stydata" align="right"> 363,303 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=8a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    46,824</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=8a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.903</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=8a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.064</a> </td>       <td class="stydata" align="right"> 62.22 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 9月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=9a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   643,563</a> </td>       <td class="stydata" align="right"> 244,735 </td>       <td class="stydata" align="right"> 351,262 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=9a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    47,565</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=9a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.911</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=9a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.067</a> </td>       <td class="stydata" align="right"> 61.97 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 10月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=10a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   692,664</a> </td>       <td class="stydata" align="right"> 298,643 </td>       <td class="stydata" align="right"> 350,350 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=10a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    43,671</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=10a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.948</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=10a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.060</a> </td>       <td class="stydata" align="right"> 56.88 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 11月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=11a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   712,302</a> </td>       <td class="stydata" align="right"> 278,653 </td>       <td class="stydata" align="right"> 391,056 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=11a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    42,592</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=11a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.008</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=11a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.060</a> </td>       <td class="stydata" align="right"> 60.88 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">106年 12月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=12a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   682,260</a> </td>       <td class="stydata" align="right"> 286,629 </td>       <td class="stydata" align="right"> 353,160 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=12a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    42,470</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=12a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.934</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=106am=12a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.058</a> </td>       <td class="stydata" align="right"> 57.99 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=0a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');"> 9,740,671</a> </td>       <td class="stydata" align="right"> 4,317,339 </td>       <td class="stydata" align="right"> 4,828,340 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=0a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">   594,992</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=0a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.132</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=0a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.069</a> </td>       <td class="stydata" align="right"> 55.68 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 1月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=1a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   803,859</a> </td>       <td class="stydata" align="right"> 383,029 </td>       <td class="stydata" align="right"> 373,723 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=1a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    47,108</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=1a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.100</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=1a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.064</a> </td>       <td class="stydata" align="right"> 52.35 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 2月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=2a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   765,099</a> </td>       <td class="stydata" align="right"> 370,283 </td>       <td class="stydata" align="right"> 349,264 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=2a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    45,553</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=2a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.159</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=2a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.069</a> </td>       <td class="stydata" align="right"> 51.60 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 3月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=3a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   797,735</a> </td>       <td class="stydata" align="right"> 362,660 </td>       <td class="stydata" align="right"> 384,739 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=3a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    50,337</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=3a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.092</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=3a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.069</a> </td>       <td class="stydata" align="right"> 54.54 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 4月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=4a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   731,484</a> </td>       <td class="stydata" align="right"> 325,532 </td>       <td class="stydata" align="right"> 357,601 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=4a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    48,351</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=4a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.034</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=4a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.068</a> </td>       <td class="stydata" align="right"> 55.50 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 5月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=5a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   795,479</a> </td>       <td class="stydata" align="right"> 348,118 </td>       <td class="stydata" align="right"> 394,323 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=5a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    53,039</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=5a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.089</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=5a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.073</a> </td>       <td class="stydata" align="right"> 56.24 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 6月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=6a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   800,191</a> </td>       <td class="stydata" align="right"> 367,726 </td>       <td class="stydata" align="right"> 379,095 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=6a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    53,371</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=6a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.131</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=6a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.075</a> </td>       <td class="stydata" align="right"> 54.05 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 7月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=7a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   834,327</a> </td>       <td class="stydata" align="right"> 367,743 </td>       <td class="stydata" align="right"> 415,647 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=7a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    50,936</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=7a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.142</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=7a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.070</a> </td>       <td class="stydata" align="right"> 55.92 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 8月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=8a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   865,240</a> </td>       <td class="stydata" align="right"> 365,759 </td>       <td class="stydata" align="right"> 451,962 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=8a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    47,519</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=8a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.184</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=8a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.065</a> </td>       <td class="stydata" align="right"> 57.73 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 9月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=9a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   764,842</a> </td>       <td class="stydata" align="right"> 349,842 </td>       <td class="stydata" align="right"> 367,614 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=9a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    47,387</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=9a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.081</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=9a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.067</a> </td>       <td class="stydata" align="right"> 54.26 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 10月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=10a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   824,800</a> </td>       <td class="stydata" align="right"> 357,699 </td>       <td class="stydata" align="right"> 416,237 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=10a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    50,864</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=10a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.128</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=10a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.070</a> </td>       <td class="stydata" align="right"> 56.63 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 11月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=11a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   793,513</a> </td>       <td class="stydata" align="right"> 347,704 </td>       <td class="stydata" align="right"> 395,836 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=11a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    49,973</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=11a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.122</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=11a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.071</a> </td>       <td class="stydata" align="right"> 56.18 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">107年 12月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=12a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   964,101</a> </td>       <td class="stydata" align="right"> 371,246 </td>       <td class="stydata" align="right"> 542,299 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=12a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    50,555</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=12a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.319</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=107am=12a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.069</a> </td>       <td class="stydata" align="right"> 61.49 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=0a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');"> 9,812,418</a> </td>       <td class="stydata" align="right"> 4,290,856 </td>       <td class="stydata" align="right"> 5,023,517 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=0a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">   498,045</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=0a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.139</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=0a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.058</a> </td>       <td class="stydata" align="right"> 56.27 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 1月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=1a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   828,162</a> </td>       <td class="stydata" align="right"> 367,237 </td>       <td class="stydata" align="right"> 414,094 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=1a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    46,830</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=1a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.132</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=1a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.064</a> </td>       <td class="stydata" align="right"> 55.66 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 2月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=2a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   747,702</a> </td>       <td class="stydata" align="right"> 350,360 </td>       <td class="stydata" align="right"> 353,858 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=2a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    43,484</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=2a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.132</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=2a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.066</a> </td>       <td class="stydata" align="right"> 53.14 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 3月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=3a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   779,654</a> </td>       <td class="stydata" align="right"> 352,847 </td>       <td class="stydata" align="right"> 382,221 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=3a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    44,586</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=3a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.066</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=3a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.061</a> </td>       <td class="stydata" align="right"> 54.74 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 4月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=4a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   783,675</a> </td>       <td class="stydata" align="right"> 350,601 </td>       <td class="stydata" align="right"> 392,598 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=4a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    40,476</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=4a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.107</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=4a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.057</a> </td>       <td class="stydata" align="right"> 55.26 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 5月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=5a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   817,248</a> </td>       <td class="stydata" align="right"> 360,558 </td>       <td class="stydata" align="right"> 415,957 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=5a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    40,733</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=5a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.118</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=5a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.056</a> </td>       <td class="stydata" align="right"> 55.88 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 6月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=6a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   784,763</a> </td>       <td class="stydata" align="right"> 350,180 </td>       <td class="stydata" align="right"> 394,246 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=6a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    40,337</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=6a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.109</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=6a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.057</a> </td>       <td class="stydata" align="right"> 55.38 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 7月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=7a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   840,738</a> </td>       <td class="stydata" align="right"> 378,917 </td>       <td class="stydata" align="right"> 421,336 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=7a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    40,484</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=7a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.150</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=7a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.055</a> </td>       <td class="stydata" align="right"> 54.93 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 8月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=8a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   942,172</a> </td>       <td class="stydata" align="right"> 382,120 </td>       <td class="stydata" align="right"> 519,794 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=8a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    40,258</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=8a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.288</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=8a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.055</a> </td>       <td class="stydata" align="right"> 59.44 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 9月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=9a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   822,744</a> </td>       <td class="stydata" align="right"> 353,605 </td>       <td class="stydata" align="right"> 430,562 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=9a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    38,577</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=9a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.162</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=9a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.055</a> </td>       <td class="stydata" align="right"> 57.02 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 10月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=10a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   813,199</a> </td>       <td class="stydata" align="right"> 345,208 </td>       <td class="stydata" align="right"> 427,062 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=10a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    40,929</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=10a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.112</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=10a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.056</a> </td>       <td class="stydata" align="right"> 57.55 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 11月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=11a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   810,826</a> </td>       <td class="stydata" align="right"> 338,084 </td>       <td class="stydata" align="right"> 432,659 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=11a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    40,082</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=11a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.145</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=11a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.057</a> </td>       <td class="stydata" align="right"> 58.30 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">108年 12月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=12a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   841,537</a> </td>       <td class="stydata" align="right"> 361,138 </td>       <td class="stydata" align="right"> 439,130 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=12a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    41,269</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=12a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.150</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=108am=12a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.056</a> </td>       <td class="stydata" align="right"> 57.09 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=0a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');"> 9,869,675</a> </td>       <td class="stydata" align="right"> 4,062,029 </td>       <td class="stydata" align="right"> 5,278,079 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=0a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">   529,567</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=0a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.144</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=0a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.061</a> </td>       <td class="stydata" align="right"> 58.84 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 1月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=1a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   841,148</a> </td>       <td class="stydata" align="right"> 387,934 </td>       <td class="stydata" align="right"> 409,730 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=1a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    43,484</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=1a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.150</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=1a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.059</a> </td>       <td class="stydata" align="right"> 53.88 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 2月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=2a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   778,444</a> </td>       <td class="stydata" align="right"> 330,110 </td>       <td class="stydata" align="right"> 406,340 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=2a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    41,993</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=2a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.137</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=2a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.061</a> </td>       <td class="stydata" align="right"> 57.59 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 3月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=3a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   815,855</a> </td>       <td class="stydata" align="right"> 337,937 </td>       <td class="stydata" align="right"> 432,940 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=3a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    44,979</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=3a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.115</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=3a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.061</a> </td>       <td class="stydata" align="right"> 58.58 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 4月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=4a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   777,439</a> </td>       <td class="stydata" align="right"> 323,815 </td>       <td class="stydata" align="right"> 410,769 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=4a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    42,855</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=4a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.098</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=4a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.061</a> </td>       <td class="stydata" align="right"> 58.35 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 5月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=5a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   801,690</a> </td>       <td class="stydata" align="right"> 344,824 </td>       <td class="stydata" align="right"> 411,339 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=5a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    45,527</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=5a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.096</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=5a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.062</a> </td>       <td class="stydata" align="right"> 56.99 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 6月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=6a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   816,265</a> </td>       <td class="stydata" align="right"> 352,189 </td>       <td class="stydata" align="right"> 417,591 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=6a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    46,485</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=6a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.154</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=6a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.066</a> </td>       <td class="stydata" align="right"> 56.85 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 7月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=7a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   876,071</a> </td>       <td class="stydata" align="right"> 343,408 </td>       <td class="stydata" align="right"> 486,721 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=7a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    45,943</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=7a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.198</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=7a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.063</a> </td>       <td class="stydata" align="right"> 60.80 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 8月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=8a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   822,181</a> </td>       <td class="stydata" align="right"> 341,554 </td>       <td class="stydata" align="right"> 435,514 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=8a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    45,113</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=8a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.125</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=8a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.062</a> </td>       <td class="stydata" align="right"> 58.46 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 9月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=9a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   796,977</a> </td>       <td class="stydata" align="right"> 317,443 </td>       <td class="stydata" align="right"> 434,715 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=9a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    44,819</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=9a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.127</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=9a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.063</a> </td>       <td class="stydata" align="right"> 60.17 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 10月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=10a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   818,674</a> </td>       <td class="stydata" align="right"> 327,809 </td>       <td class="stydata" align="right"> 445,799 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=10a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    45,066</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=10a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.121</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=10a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.062</a> </td>       <td class="stydata" align="right"> 59.96 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 11月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=11a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   778,779</a> </td>       <td class="stydata" align="right"> 317,725 </td>       <td class="stydata" align="right"> 419,927 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=11a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    41,127</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=11a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.102</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=11a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.058</a> </td>       <td class="stydata" align="right"> 59.20 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">109年 12月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=12a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   946,151</a> </td>       <td class="stydata" align="right"> 337,282 </td>       <td class="stydata" align="right"> 566,694 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=12a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    42,175</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=12a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.295</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=109am=12a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.058</a> </td>       <td class="stydata" align="right"> 64.35 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">110年<br>(1月至3月)</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110amb1a3a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');"> 2,473,440</a> </td>       <td class="stydata" align="right"> 997,444 </td>       <td class="stydata" align="right"> 1,350,192 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110amb1a3a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">   125,804</a> </td>       <td class="stydata" align="right"> 0</td>       <td class="stydata" align="right"> 0</td>       <td class="stydata" align="right"> 59.67 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">110年 1月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=1a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   836,107</a> </td>       <td class="stydata" align="right"> 346,781 </td>       <td class="stydata" align="right"> 448,263 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=1a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    41,063</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=1a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.145</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=1a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.056</a> </td>       <td class="stydata" align="right"> 58.52 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">110年 2月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=2a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   786,365</a> </td>       <td class="stydata" align="right"> 331,502 </td>       <td class="stydata" align="right"> 414,096 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=2a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    40,767</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=2a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.193</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=2a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.062</a> </td>       <td class="stydata" align="right"> 57.84 </td>      
+   </tr>
+   
+   <tr>
+   <th class="stycode"   align="left" scope="row">110年 3月</th>
+  <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=3a((f=235110600ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">   850,968</a> </td>       <td class="stydata" align="right"> 319,161 </td>       <td class="stydata" align="right"> 487,832 </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=3a((f=235110420ac1>=0ac2>=0ac3>=0 a(c4>=0) ac5>=0)) ');">    43,974</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=3a((f=235110610ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  1.166</a> </td>       <td class="stydata" align="right"> <a  onMouseDown="openWindow(1,239,' y=110am=3a((f=235110570ac1>=0ac2>=0ac3>=0ac4>=0ac5>=0)) ');">  0.060</a> </td>       <td class="stydata" align="right"> 62.49 </td>      
+   </tr>
+   
+ </table>
+
+
+<p><desc><span class="msgcls"></span></desc></p>
+<p><desc><span class="desccls">說明：1.「資源垃圾」量係以公告應回收廢物品及容器回收量及其他公告應回收項目加總計算，其他公告應回收項目104年(含)以<br>
+　　　<a>&nbsp;&nbsp;&nbsp;</a>前包括執行機關「紙類」、「舊衣類」、「其他金屬製品」、「光碟片」、「行動電話」及「其他」等6項之回收量，<br>
+　　　<a>&nbsp;&nbsp;&nbsp;</a>105年起再納入「其他塑膠製品」、「其他玻璃製品」、「食用油」等3項之回收量。<br>
+　　　2.90年起金門縣納入統計，92年7月起連江縣納入統計。<br>
+　　　3.巨大垃圾於94年起統計，並依其性質拆分歸入「一般垃圾」及「資源垃圾」項下；廚餘92年起統計，事業員工生活垃圾<br>
+　　　<a>&nbsp;&nbsp;&nbsp;</a>107年起統計。<br>
+　　　4.平均每人每日一般廢棄物產生量=一般廢棄物產生量/(當月(年)日數*期中人口數)，平均每人每日廚餘回收量=廚餘回收量<br>
+　　　<a>&nbsp;&nbsp;&nbsp;</a>/(當月(年)日數*期中人口數)。<br>
+　　　5.一般廢棄物回收率=(資源垃圾回收量+廚餘回收量)/一般廢棄物產生量*100%。<br>
+　　　6.公告應回收廢棄物回收率自92年起統計，以各類公告列管材質如廢容器等回收量/營業量(或廢棄量)*100%計算。因財政部<br>
+　　　<a>&nbsp;&nbsp;&nbsp;</a>105年1月8日至110年1月7日推動汰舊換新退還減徵新車貨物稅政策，致廢棄車輛回收量增加，公告應回收廢棄物回收率<br>
+　　　<a>&nbsp;&nbsp;&nbsp;</a>上升。<br></span></desc></p>
+<p><desc><h6><span class="syscls">產生時間:110/07/13 15:45:00</span></h6></desc></p>
+</form>
+</body>
+</html>
+ 
